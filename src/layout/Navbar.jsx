@@ -35,13 +35,13 @@ function Navbar(){
                     <RiMenu3Fill onClick={toggleModule}/>
                     <ul className={abrirmenu ? 'linkeshamburguer' : 'notlinks'}>
                     <li>
-                        <Link to="/" onClick={toggleModule}>HOME</Link>
+                        <Link to="/Portifolio/" onClick={toggleModule}>HOME</Link>
                     </li>
                     <li>
-                        <Link to="/projetos" onClick={toggleModule}>PROJETOS</Link>
+                        <Link to="/Portifolio/projetos" onClick={toggleModule}>PROJETOS</Link>
                     </li>
                     <li>
-                        <Link to="/contato" onClick={toggleModule}>CONTATO</Link>
+                        <Link to="/Portifolio/contato" onClick={toggleModule}>CONTATO</Link>
                     </li>
                 </ul>
                 </div>

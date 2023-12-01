@@ -22,13 +22,13 @@ function Navbar(){
                     </Link>
                 <ul className="linkes">
                     <li>
-                        <Link to="/" >HOME</Link>
+                        <Link to="/Portifolio/" >HOME</Link>
                     </li>
                     <li>
-                        <Link to="/projetos" >PROJETOS</Link>
+                        <Link to="/Portifolio/projetos" >PROJETOS</Link>
                     </li>
                     <li>
-                        <Link to="/contato" >CONTATO</Link>
+                        <Link to="/Portifolio/contato" >CONTATO</Link>
                     </li>
                 </ul>
                 <div className="menu-hamburguer">

@@ -17,7 +17,7 @@ function Navbar(){
     return(
         <div>
             <nav className='Navegacao'>
-                    <Link to='/'>
+                    <Link to='/Portifolio/'>
                         <img className="imagem_log" src={logo} alt="" />
                     </Link>
                 <ul className="linkes">
